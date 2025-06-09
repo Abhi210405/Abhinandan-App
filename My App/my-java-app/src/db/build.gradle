@@ -1,0 +1,4 @@
+dependencies {
+    implementation 'com.sun.mail:jakarta.mail:2.0.1'
+    implementation 'mysql:mysql-connector-java:8.4.0' // Add this line
+}

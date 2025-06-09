@@ -1,0 +1,23 @@
+plugins {
+    id 'java'
+}
+
+group 'com.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'com.sun.mail:jakarta.mail:2.0.1'
+    implementation 'mysql:mysql-connector-java:8.4.0'
+}
+
+application {
+    mainClass = 'App'
+}
+
+test {
+    useJUnitPlatform()
+}
